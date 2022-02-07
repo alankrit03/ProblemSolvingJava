@@ -66,16 +66,18 @@ public class MergeTwoSortedLinkedList {
                 list2 = list2.next;
     		}
     	}
-    	if(list1!=null)
+    	if(list1!=null) {
             if(head==null)
                 head = list1;
             else
     		    end.next = list1;
-    	if(list2!=null)
+    	}
+    	if(list2!=null) {
             if(head==null)
                 head = list2;
             else
     		    end.next = list2;
+    	}
     	
         return head;
     }
