@@ -9,6 +9,9 @@ public class AllocateMinimumNumberOfPages {
 
 	}
 	
+//	You have to allocate books to B number of students so that maximum number of 
+//	pages alloted to a student is minimum.
+	
     public int books(ArrayList<Integer> A, int B) {
     	int lo=0,hi=0,mid;
     	int n = A.size();
