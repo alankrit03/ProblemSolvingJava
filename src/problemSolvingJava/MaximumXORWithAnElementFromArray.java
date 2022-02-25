@@ -21,7 +21,7 @@ class TrieNode{
 }
 
 
-class MyComparator implements Comparator<Query>{
+class MyComparator implements Comparator<Query>{ 
 
 	@Override
 	public int compare(Query o1, Query o2) {
